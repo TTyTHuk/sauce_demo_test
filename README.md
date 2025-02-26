@@ -13,6 +13,4 @@
   - Пример: `pytest --browser=firefox --browser-version=102.0`
 - **Запуск на Selenoid**: Для удалённого запуска тестов добавьте параметр `--remote`. Убедитесь, что Selenoid запущен и настроен.
 - **Генерация Allure-отчёта**: Результаты тестового прогона сохраняются для Allure.
-- **Проверка типов**: Используйте [mypy](http://mypy-lang.org/) в режиме strict:
-  ```bash
-  mypy --strict .
+
