@@ -14,3 +14,36 @@
 - **Запуск на Selenoid**: Для удалённого запуска тестов добавьте параметр `--remote`. Убедитесь, что Selenoid запущен и настроен.
 - **Генерация Allure-отчёта**: Результаты тестового прогона сохраняются для Allure.
 
+## Требования
+
+- Python 3.10+
+- Браузер (Chrome или Firefox)
+- Соответствующий драйвер (ChromeDriver для Chrome или GeckoDriver для Firefox)
+
+## Установка
+
+### Для Windows
+
+Клонировать репозиторий
+
+   ```bash
+   cd sauce_demo_test
+   ```
+   ```bash
+   python -m venv venv
+   ```
+   ```bash
+   venv\Scripts\activate
+   ```
+   ```bash
+   pip install -r requirements.txt
+   ```
+### Для Linux
+
+Клонировать репозиторий
+  ```bash
+  cd sauce_demo_test
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
