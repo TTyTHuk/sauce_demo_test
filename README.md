@@ -1,4 +1,4 @@
-# SauceDemo Automated Tests
+# SauceDemo  Tests
 
 Этот репозиторий содержит автотесты для сайта [SauceDemo](https://www.saucedemo.com/) с использованием Python 3.10+, Selenium и pytest.
 
